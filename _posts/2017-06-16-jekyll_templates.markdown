@@ -1,13 +1,15 @@
 ---
 layout: post
 title:  "Jekyll Templates"
-date:   2017-06-16 07:48:16 +0000
+date:   2017-06-16 03:48:17 -0400
 ---
 
 After Writing my last blog I realized that Jekyll templates can also be confused for Handlebars templates. My previous blog post included a snippet Handlebars template for a task object which had an attribute of 'content'. During the compiling process of my blog post the snippet of the  'contents' of my previous blog post was implanted.
 
 I attached a copy of what my blog post was supposed to look like below. This time I was sure to remove the type attributes from my script and renamed content to kontent so the same thing doesn't happen again.
-----------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 I finished my first rails app with a jQuery Front End and my biggest takeaway from this is that Handlebars is AWESOME! Without it, this would have been harder and taken much longer.
 
