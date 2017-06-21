@@ -1,10 +1,10 @@
 # Site settings
-title: puts "#{inspiration}"
+title: Code better than I grammar
 header-img: img/home-bg.png
 email: mr.omarmason@gmail.com
 copyright_name: PhreeMason
 description: > # this means to ignore newlines until "baseurl:"
-  Lazy man at work
+  Heh
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  PhreeMason
