@@ -1,0 +1,81 @@
+---
+layout: post
+title:  "Intro to ES6"
+date:   2017-08-20 03:23:01 +0000
+---
+
+In this post I'll go over a few noteworthy ES6 features. Let's begin:
+
+If you haven't written JavaScript using ES6 syntax then you most likely did you variable declarations using `var`
+
+In ES6 there are two new ways to declare variables `let` and `const`. 
+
+`let` is used to declare a variable that you plan to reassign at least once later in your code. For example, if you are creating a banking app and need to keep track of someone's `balance` for a transaction, then you most likely will be reassigning the value of `balance` by the end of the transaction. 
+
+`const` is used when a variable will not be reassigned. `const` refers to constant and lets others know that the variable declared will not be reassigned.
+
+The use of `const` and `let` are preferred in ES6 because they are both block scoped instead of function scoped. 
+
+Another cool feature of ES6, and my favorite, is the spread operator.
+
+ The spread operator allows you to easily expand arrays and objects in order to create new arrays or objects. 
+ 
+ For example if you have
+ `
+ const array1 = [0, 1, 2];
+ let array2 = [3, 4, 5];
+ `
+
+If you wanted to create a new array containing both array1 and array2 then you are most likely thinking of using `array.concat()`
+However, now you can accomplish this same result using the spread operator. 
+
+`
+const array3 = [...array1, ...array2]
+
+console.log(array3)
+// [1, 2, 3, 4, 5]
+`
+
+But you might say, what's so special about the spread operator if it does the same thing as array.concat()? Well to answer your question, the spread operator also applies to objects and function calls.
+
+In the case of objects, specific keys can be reassigned without using Object.assign() when duplicating an object.
+`
+const object1= {
+"a": 1,
+"b": 2,
+}
+
+const object2 = {
+...object1,
+"b": 3
+}
+
+console.log(object2)
+//
+{"a":1, "b":3}
+`
+With functions the spread operator allows you to input arguments from an array similar to using the apply function.
+
+`
+function addNums(arg1, arg2, arg3){
+  console.log(arg1+arg2+arg3)
+}
+`
+
+Given the above function the spread operator allows you to pass in arguments from an array. Meaning 
+`
+addNums(1,2,3)
+// 6
+`
+will result in the same output as
+
+`
+const nums =  [1, 2, 3]
+addNums(...[1, 2, 3])
+// 6
+`
+
+
+That's all for now! I hope you found this useful.
+
+
