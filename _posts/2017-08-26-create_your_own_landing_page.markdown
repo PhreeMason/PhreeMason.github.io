@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Create your own landing page "
-date:   2017-08-26 19:57:27 +0000
+date:   2017-08-26 15:57:28 -0400
 ---
 
 
@@ -193,6 +193,10 @@ There is a lot going on here so let’s break it down line by line.
 The first line increases the font so that it is consistent with the rest of the text on the page. The removal of the underline text decoration and addition of the brown color also adds to making the link match up with the text around it. At this point the link is indistinguishable from the from the paragraph text above it. The addition of a border makes the link look more clickable. We use padding to increase the size of the newly created button. The current trend in technology is adding curves to everything so we'll follow along and remove the pointed corners from our button. A top margin helps to add some space from our paragraph. 
 
 The remaining code adds a change in background and text color to the button, signaling to the user that they can interact with this button.
+
+Here is look at the final product:
+
+![](https://i.gyazo.com/e9b3234f25af53c0b2259944a2b85aed.gif)
 
 Hopefully you found this helpful and you like the new look of you responsize landing page!
 
