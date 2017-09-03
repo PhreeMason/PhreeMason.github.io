@@ -28,7 +28,7 @@ date:   2017-09-02 20:51:49 -0400
     * Then enter the location of your sdk folder under variable value. In my case this location is 'C:\Users\Omars-PC\AppData\Local\Android\sdk'
     * Then add the next variable 'JAVA_HOME' with location for variable value. For me it is 'C:\Program Files\Java\jre1.8.0_144'
  
-6. Once that is all complete you can scoffold your first react app by running `react-native init APPNAMEHERE`
+6. Once that is all complete you can scaffold your first react app by running `react-native init APPNAMEHERE`
     * This will take some time to complete. After it finishes, open android studio and click the option to open existing project.
     * From there find the folder of the react native app and click on the android folder.
    
@@ -36,12 +36,12 @@ date:   2017-09-02 20:51:49 -0400
     * From there click Android SDK and click the SDK Platforms tab.
     * From this tab click the show package details checkbox, then check the boxes for each android version that you would like to build apps for and click apply.
 
-8. After thats complete click AVD Manger Icon at the top of the Android Studio window.
+8. After that’s complete click AVD Manger Icon at the top of the Android Studio window.
     * This will show your virtual devices. You most likely don't have any so just create one and choose the device you would like to test your app with.
-    * After creating your vitual device run it 
+    * After creating your virtual device run it 
 
 9. Next in the command prompt run the command 'react-native start' then open a second command line and run 'react-native run-android' 
     * This will compile your app and run it in the virtual device. 
-    * You can use an code editor you choose to edit the code.
+    * You can use a code editor of your choice to edit the code.
 
-Thats it! Happy Coding.
+That’s it! Happy Coding!
